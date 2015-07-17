@@ -34,7 +34,11 @@ label{
 /*-- header-starts --*/
 .header-bottom {
 	padding:1.5em 0;
-	border-bottom: 1px solid #4597a8;
+	border-bottom: 1px solid #66BB6A;
+}
+.header-bottom-index {
+	padding:1.5em 0;
+	border-bottom: 0px solid #66BB6A;
 }
 .header-top {
 	padding:1.1em 0;
@@ -82,13 +86,12 @@ p.phonenum {
 	
 	float: left;
 	height: 40px;
-	width: 140px;
+	width: 150px;
 	min-height: 31px;
 	margin-left: 4px;
 }
 .logotitle p{
-	font-size: 2em;
-	font-style: 
+	font-size: 2em; 
 }
 .top-menu {
 	text-align: center;
@@ -106,10 +109,10 @@ p.phonenum {
 	margin: 0;
 }
 .top-menu ul li a.active{
-	color:#4597a8;
+	color:#66BB6A;
 }
 .top-menu ul li a:hover{
-	color:#4597a8;
+	color:#66BB6A;
 }
 nav a {
 	position: relative;
@@ -234,7 +237,7 @@ a.more {
 }
 a.more:hover {
 	color: #fff;
-	background: #4597a8;
+	background: #66BB6A;
 }
 .callbacks_tabs a:after {
 	content: "\f111";
