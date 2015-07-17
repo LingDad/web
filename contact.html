@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>联系我们</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<!-- navigation -->
+<link href="css/component.css" rel="stylesheet" type="text/css"  />
+<!-- navigation -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="My Pets Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<script src="js/responsiveslides.min.js"></script>
+ <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+  <script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+</head>
+<body>
+    <!-- header-section-starts -->
+	<div class="header">
+
+		<div class="header-bottom">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html"><img src="images/slice.png" alt="" /></a>
+				</div>
+				<div class="logotitle">
+					<p><b>地铁听新闻</b></p>
+				</div>
+				<span class="menu"></span>
+				<div class="top-menu">
+					<ul>
+					<nav class="cl-effect-5">
+						<li><a href="index.html"><span data-hover="首页">首页</span></a></li> 
+						<li><a href="about.html"><span data-hover="关于地铁听新闻">关于地铁听新闻</span></a></li>
+						<li><a class="active" href="contact.html"><span data-hover="联系我们">联系我们</span></a></li>
+					</nav>
+					</ul>
+				</div>
+				<!-- script for menu -->
+				<script>
+				$( "span.menu" ).click(function() {
+				  $( ".top-menu" ).slideToggle( "slow", function() {
+				    // Animation complete.
+				  });
+				});
+			</script>
+			<!-- script for menu -->
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+		
+	<div align="center" class="contact_me">
+	<img class="loc" src="images/location.jpg" alt=""/>
+	</div>
+	<div align="center" class="info">
+	<h4>公司地址: 北京市朝阳区太阳宫中路12A号太阳宫大厦18层</h4>
+	<h4>公司电话: +86 10 1381234567</h4>
+	<h4>Email: kathleen.du@dttxw.com</h4>
+	</div>
+	
+	<!-- footer-section-starts 
+	<div class="footer1">
+		<div class="container">
+			<div class="follow-us-on">
+				<h4>关注我们</h4>
+				<div class="social-icons">
+					<i class="facebook"></i>
+					<i class="twitter"></i>
+					<i class="pinterest"></i>
+					<i class="googlepluse"></i>
+				</div>
+				<p>如果你对地铁听新闻感兴趣，或者有什么建议提供给我们，欢迎关注我们新浪微博，微信公众号，脸书以及推特，我们欢迎一切对产品发展有益的建议，不管是批评还是赞扬，旨在给一切地铁听新闻用户提供更好的产品和更好的服务。</p>
+				<div class="copyrights">
+
+					<p>Copyright &copy; 2015.DuLaLa Inc. All rights reserved. 京ICP备1234567号</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	footer-section-ends -->
+	<!-- footer-section-starts -->
+	<div class="footer">
+		<div class="container">
+			
+			<div class="col-md-7 follow-us">
+				<h4>关注我们</h4>
+				<div class="social-icons">
+					<i class="facebook"></i>
+					<i class="twitter"></i>
+					<i class="pinterest"></i>
+					<i class="googlepluse"></i>
+				</div>
+				<p>如果你对地铁听新闻感兴趣，或者有什么建议提供给我们，欢迎关注我们新浪微博，微信公众号，脸书以及推特，我们欢迎一切对产品发展有益的建议，不管是批评还是赞扬，旨在给一切地铁听新闻用户提供更好的产品和更好的服务。</p>
+				<div class="copyright">
+					<p>Copyright &copy; 2015.DuLaLa Inc. All rights reserved. 京ICP备1234567号</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- footer-section-ends -->
+	<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
