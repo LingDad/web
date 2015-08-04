@@ -1,7 +1,7 @@
 body{
 	padding:0;
 	margin:0;
-	font-family: 'Roboto', sans-serif;
+	font-family: Microsoft YaHei;
 	background: #fff;
 }
 body a{
@@ -91,7 +91,8 @@ p.phonenum {
 	margin-left: 4px;
 }
 .logotitle p{
-	font-size: 2em; 
+	vertical-align: middle;
+	font-size: 2em;
 }
 .top-menu {
 	text-align: center;
@@ -248,13 +249,13 @@ a.more:hover {
 	height: 16px;
 	width: 16px;	
 	display: inline-block;
-	background:#4597a8;
-	border: 3px solid #4597a8;
+	background:#66BB6A; /*xjw*/
+	border: 3px solid #66BB6A;
 	border-radius:50%;
 }
 .callbacks_here a:after{
 	border: 3px solid #fff;
-	background:#4597a8;
+	background:#66BB6A;
 }
 .callbacks_tabs a{
 	visibility:hidden;
